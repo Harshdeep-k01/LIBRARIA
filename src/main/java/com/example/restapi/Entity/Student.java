@@ -42,6 +42,11 @@ public class Student {
     public String getBranch() {
         return branch;
     }
+    public Student(String name, float percentage, String branch) {
+        this.name = name;
+        this.percentage = percentage;
+        this.branch = branch;
+    }
     public void setBranch(String branch) {
         this.branch = branch;
     }
